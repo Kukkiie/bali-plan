@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .carousel {
+    margin-bottom: 4rem;
+    }
+     h1 {
+      text-align: center;
+     }
+
+     .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+    .marketing .col-lg-4>img {
+      height: 140px;
+      width: 140px;
+      border-radius: 50%;
+      top: 50px;
+      left: 350px;
+  }
+
+  .activities>p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  </style>
+</head>
+<body>
+    <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">BALI with YOU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+    <main>
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="./assets/images/beach2.jpg" height="100%" width="100%" alt="beach">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>We will go to the beach</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/tea2.jpg" height="100%" width="100%" alt="tea">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>We will drink tea</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/sunset2.jpg" height="100%" width="100%" alt="sunset">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>We will watch sunset</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/couple2.JPEG" height="100%" width="100%" alt="couple">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>We will go everywhere together</h1>
+                <p><a class="btn btn-lg btn-primary" href="https://forms.gle/LbvLqVuYRCSYbqLt6">Sign up to join me</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="./assets/images/take photo2.JPEG" height="100%" width="100%" alt="Take Photo">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>We will take a lot of photos</h1>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="activities">
+          <h1>
+            Activities
+          </h1>
+          <p>- This is just an option -</p>
+        </div>
+          <div class="col-lg-4">
+            <img src="./assets/images/bali dirt bike.webp" height="140px" width="140px" alt="dirt bike">
+            <h2 class="fw-normal">Bali Dirt Bike 🏍️</h2>
+            <p>Ride the dirt bike in the jungle or on the beach..adventure time!</p>
+            <p><a class="btn btn-secondary" href="https://balidirtbikes.com/">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="./assets/images/bali surf.jpeg" alt="surf">
+            <h2 class="fw-normal">Surf 🏄🏻‍♀️ </h2>
+            <p>Go surfing somewhere in Canggu.</p>
+            <p><a class="btn btn-secondary" href="https://www.google.com/search?sca_esv=9384466e02e87e88&sxsrf=ADLYWILrrefXAsSjkZHA7nGbIEAjEOSSRw:1716319681781&q=canggu+surf&source=lnms&uds=ADvngMhuDw_yNi4xBSOSvhiDBmXpf6T02QkBZxpLIsR6C4PWBwgzbEV5EIuLWlnyqYbfBRqt0ejOVK6qWagFWYXe18mXVvIgTJNT9VGdJvbzVWzTQ6MUu-wSxIx7OCdZMvhUEZ0w93MRmJkL3sOpcSrEjOw0wJwGEAtg2gQgjIJiddteFywUfZX5CFZSXCvBYgPxq8RGHSjjFIFIuEq7LgnyDWin5bOaVHTuiiYZh0Bk_P6ekFMG161eGTmVhboiewvijcdSTjOuujVB0fo6FVbP1xnS8sYiU0lMZikb4hHKjEElq8AguD_rgYC6LVEc975DiCTdqHMT&sa=X&ved=2ahUKEwi8j9CHvZ-GAxW7oa8BHfrNBVIQ0pQJegQIChAB&biw=1440&bih=754&dpr=2">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="./assets/images/snorkeling.jpeg" alt="snorkeling">
+            <h2 class="fw-normal">Snorkeling 🤿</h2>
+            <p>Go snorkeling somewhere in Nusa Penida</p>
+            <p><a class="btn btn-secondary" href="https://www.google.com/search?sca_esv=33d761b251b7bc29&sxsrf=ADLYWILqo96b7BrCky7gpTxUy4bfQIYVPA:1716320711505&q=snorkeling+nusa+penida&source=lnms&uds=ADvngMhqp_J0lC3pg3IrZ9MLKsA6l-x7wOgAoBgfaEW3Z8Lu9s2tNUQXgLE86EjP4YHHHz9KZ9JyULES3IJMUw7qVRVUwTBlojX1FOoN6WIYi4pIwulrg8_DrqKEHzCkvqdY4ZYOjgme4N5QRB0Kzg6Cl2x_iyS25r0kfp-lCRVxq3ocPdseirWRBX8Yp1tWgGmxXbSxI4D--2COe2ygicjKNUsWCuc1nGik6JblNkCn4iiqNYE5VxyXw1rMpRKvgVyLwINS7yykdSVOz64wYVovLNv_WoYZA8ce3iZpTuYGkKFCYhRuAH4JPX8EDYrhEplQ7faC4zzO58Z3wY78nD52VPPnF6N-tw&sa=X&ved=2ahUKEwicydHywJ-GAxURR2wGHZ-tBQIQ0pQJegQIERAB&biw=1440&bih=754&dpr=2">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-4">
+            <img src="./assets/images/gym.webp" alt="snorkeling">
+            <h2 class="fw-normal">Gym & Ice Bathe 🏋🏻‍♀️🧊</h2>
+            <p>Go to the gym and ice bathe after gym</p>
+            <p><a class="btn btn-secondary" href="https://wronggym.com/pages/membership">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="./assets/images/mt Batur.jpeg" alt="Mountain">
+            <h2 class="fw-normal">Hiking 🥾</h2>
+            <p>Hinking at Mount Batur or somewhere else. Didn't specify anywhere in particular.</p>
+            <p><a class="btn btn-secondary" href="https://www.google.com/search?q=mt+batur&sca_esv=33d761b251b7bc29&biw=1440&bih=754&sxsrf=ADLYWIIWotsBXHL0-CUUiTkfv3nbBOE2KA%3A1716322103632&ei=N_9MZtaUJsbl1e8Pq4yB0A4&gs_ssp=eJzj4tTP1TcwqTRNyzBg9OLILVFISiwpLQIAQOsGYQ&oq=Mt+b&gs_lp=Egxnd3Mtd2l6LXNlcnAiBE10IGIqAggBMgoQIxiABBgnGIoFMgsQLhiABBiRAhiKBTILEAAYgAQYkQIYigUyChAAGIAEGEMYigUyChAuGIAEGEMYigUyChAuGIAEGEMYigUyCxAuGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyBRAAGIAESIJAUJUiWKUwcAV4AZABAJgBf6AB5gOqAQMwLjS4AQHIAQD4AQGYAgmgAosEwgIKEAAYsAMY1gQYR8ICERAAGIAEGJECGLEDGIMBGIoFwgIIEC4YgAQYsQPCAg4QABiABBixAxiDARiKBcICEBAuGIAEGNEDGEMYxwEYigXCAg0QLhiABBixAxgUGIcCwgILEAAYgAQYsQMYgwGYAwCIBgGQBgiSBwM1LjSgB-9B&sclient=gws-wiz-serp">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="./assets/images/climbing.webp" alt="climbing">
+            <h2 class="fw-normal">Climbing 🧗</h2>
+            <p>Let's go Climbing in Canggu</p>
+            <p><a class="btn btn-secondary" href="https://www.baliclimbing.net/">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    
+    
+        <!-- START THE FEATURETTES -->
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <h1>Places</h1>
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Canggu</h2>
+            <p class="lead">June 22-26, We'll do many activities, relax and chill 🌺 There're a lot of interesting things for me there.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="./assets/images/canggu.jpeg" height="500px" width="500px" alt="canggu">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Nusa Penida</h2>
+            <p class="lead">June 26-28, you already went there but I wanna go there 🥺 There have many beautiful place and I would love to explore the island 🏝️</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="./assets/images/kelingking beach.jpeg" height="500px" width="500px" alt="kelingking">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Ubud</h2>
+            <p class="lead">June 28-30, the last 3 days of me in Bali 🥺 We'll go chasing waterfall, relax and chill there. Anddd spend time with you as much as I can 💗 </p>
+          </div>
+          <div class="col-md-5">
+            <img src="./assets/images/ubud.jpeg" height="500px" width="500px" alt="ubud">
+          </div>
+        </div>
+  
+        <hr class="featurette-divider">
+    
+        <!-- /END THE FEATURETTES -->
+    
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
